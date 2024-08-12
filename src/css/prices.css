@@ -1,0 +1,49 @@
+#cennik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100svh;
+    width: 100%;
+
+    border-top: 1px solid var(--secondary);
+    color: var(--text);
+    gap: 3rem;
+
+    padding: 2rem 0 2rem 0;
+}
+
+#cennik svg{
+    fill: var(--text);
+    width: 100px;
+    min-height: 100px;
+}
+
+#cennik h3{
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+#cennik p{
+    inline-size: 100%;
+
+    font-size: 0.8rem;
+
+    width: fit-content;
+}
+
+#cennik table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#cennik th, #cennik td{
+    border: 1px solid var(--secondary);
+    padding: 1rem;
+}
+
+#cennik th{
+    background-color: var(--secondary);
+    color: var(--text);
+}
